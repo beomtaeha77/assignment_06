@@ -1,0 +1,33 @@
+.card{
+    flex: 1;
+    padding: 45px;
+    
+   
+}
+
+.btn1{
+  border-radius: 25px;
+}
+
+.price {
+  color: #e44d26;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.badge {
+  background: #e8ebff;
+  color: #5a67d8;
+  padding: 25px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+.star { color: yellow; }
+

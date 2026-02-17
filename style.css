@@ -1,0 +1,31 @@
+@import"tailwindcss";
+
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+
+.banner-container {
+  position: relative;
+  text-align: center;
+  color: white; 
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    width: 80%;} 
+
+
+   
+
+            
