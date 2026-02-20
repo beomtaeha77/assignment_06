@@ -77,125 +77,97 @@
     <section>
         <h2 class="text-3xl font-bold text-center py-14">Our Products</h2>
 
+                  <section class="flex justify-center gap-5 mx-auto">
+                          <div id="category-container" class="flex flex-wrap justify-center gap-3 mb-10">
 
-
-        <div class="flex gap-4 justify-center mx-auto">
-           
-
-                  <div id="level-container" class="flex gap-4 justify-center">
+            
             
 
-                    </div>
-        </div>
+                          </div>
+        
+              
+                             <div id="div-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+            
+            
+
+                                      </div>
+                  </section>
+
+    
 
 
-        <div>
-         
-    </div>
+
+     
+
+
+    
     </section>
 
 
 
-    <section id="card-container" class="mx-auto bg-slate-500 my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+    <section id="all-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-5 w-11/12 mx-auto my-10 bg-gray-100">
 
 
-      <div class="card bg-base-100 shadow-md border border-gray-100 h-full flex flex-col">
-    
-    <figure class="px-4 pt-4 h-48 bg-white">
-        <img class="h-full w-full object-contain" src="./Assets/71QOCKocZ3S._AC_SX569_.jpg" alt="">
-    </figure>
+    </section>
 
-    
-    <div class="card-body p-4 flex flex-col grow">
-        <div class="flex justify-between items-center mb-2">
-            <span class="badge badge-sm font-medium">Clothing</span>
-            <div class="text-sm text-gray-500">
-                <span class="text-yellow-400">★</span> 3.1
-            </div>
-        </div>
 
-        <h3 class="card-title text-sm line-clamp-2 mb-2">Jacket</h3>
-        <p class="font-bold text-xl text-primary">$149</p>
 
-        
-        <div class="card-actions justify-between items-center mt-auto pt-4 border-t border-gray-50">
-            <button data-id="${carddata.id}" class="view-details-btn btn btn-sm btn-ghost gap-2">
-                <i class="fa-regular fa-eye"></i> Details
-            </button>
-            <button class="btn btn-sm btn-primary gap-2">
-                <i class="fa-solid fa-cart-arrow-down"></i> Add
-            </button>
-        </div>
-    </div>
-</div>
+    <!-- Open the modal using ID.showModal() method -->
+<!--<button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div id="details-container" class="">
 
 
        
+      
 
-    </section>
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
 
 
+    
 
 
-
-
+    
 
 
 
-
-
-
-
-
-    <section class="text-center">
-    <h2 class="font-bold text-center text-6xl">ReadMe</h2>
-        <div>
-            <p> What is the difference between null and undefined?</p>
-            <p>Ans: undefined holo javascript er ekti default obostha. Jokhon koo variable e value assign kora hoy na ba kono kichu return kora hoy na tokhon sheti undefined. Ar null value hocche empty value jeta iccha kore khali rakha hoy</p>
-        </div>
-
-        <div><p>What is the use of the map() function in JavaScript? How is it different from forEach()?</p>
-            <p> map() and array() duitai array r upor loop chalaite use kora hoy. But kichu difference ache. map ekta notun array return kore kintu array kono kichu return kore na.
-                map e mul array change kora jay na but foreach e mul array change kora possible
-
-            </p>
-        
-        </div>
-
-        <div>
-            <p>What is the difference between == and ===?</p>
-            <p>== just value check kore. but ===data type ar value duitai check kore</p>
-        </div>
-
-        <div>
-            <p>What is the significance of async/await in fetching API data?</p>
-            <p>Er main kaaj holo ascyn data ke sync kora. Jate code bujhte shohoj hoy. Error o komate pare</p>
-        </div>
-        <div>
-            <p>Explain the concept of Scope in JavaScript (Global, Function, Block).</p>
-            <p>eita muloto bujhay code er kon ongshe variable ta dekha jabe. Global scope holo jeti function er baire declare kora hoy. eita je kono jaygay declare kora jay
-                Function scope sudhu ekta function er vetorei use kora jay. baire ba globally eke paoa jabe na. Ar Block e jeta curly bracket er vitor use kora hoy for loop ba if e 
-                ebong just oi block ei use kora jay
-            </p>
-        </div>
+    
 
 
 
 
 
 
-</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -287,5 +259,4 @@
   <script src="./script/index2.js"></script>  
 </body>
 </html>
-
 
